@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     require('lost'),
-    require('cssnext'),
-    require('postcss-simple-vars')
+    require("postcss-cssnext"),
+    require('postcss-simple-vars'),
   ]
 }
