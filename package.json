@@ -1,0 +1,29 @@
+{
+  "name": "postcss-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack && node server.js",
+    "watch:webpack": "webpack -w",
+    "server": "nodemon server.js",
+    "dev": "npm-run-all --parallel watch:webpack server"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "fs-extra": "^7.0.0",
+    "glob": "^7.1.2",
+    "pug": "^2.0.3"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "cssnext": "^1.8.4",
+    "lost": "^8.3.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "postcss-loader": "^2.1.6",
+    "postcss-simple-vars": "^4.1.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
